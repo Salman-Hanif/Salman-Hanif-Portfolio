@@ -12,6 +12,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Home-Section</title>
     <style>
+      .form2nd {
+        padding-inline:10px ;
+      }
+      #message {
+        padding: 10px;
+      }
       #drawer-contact{
         padding: 20px;
       }
@@ -20,6 +26,11 @@
       }
       .card {
         padding-block: 10px;
+      } #connect {
+        font-weight: 900;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-inline: auto;
       }
       
     </style>
@@ -495,14 +506,14 @@
         </section>
 <!-------------------------- Services Section ---------------------------------->
 <section class="services py-12 flex justify-center flex-col gap-30 items-center px-6 sm:px-12 lg:px-28">
-  <h2 class="text-white text-5xl">Services</h2>
+  <h2 class="text-white text-5xl underline">Services</h2>
 
   <div class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 place-items-center gap-4">
  
 
 
 
-    <div class="card h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
+    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
     bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
       <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-laptop-code text-5xl"></i></div>
       <h2 class="text-[30px] text-center text-black">Frontend Development</h2>
@@ -513,7 +524,7 @@
 
 
 
-    <div class="card h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
+    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
     bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
       <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-tachometer-alt text-5xl"></i></div>
       <h2 class="text-[30px] text-center text-black">Web Performance Optimization</h2>
@@ -525,7 +536,7 @@
 
 
 
-    <div class="card h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
+    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
     bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
       <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fab fa-react text-5xl"></i></div>
       <h2 class="text-[30px] text-center text-black">React Development</h2>
@@ -536,7 +547,7 @@
 
 
 
-    <div class="card h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
+    <div class="card h-[650px] xl:h-[520px] w-[90%] gap-2 shadow-[0px_0px_20px_rgba(34,197,94,1)]
     bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)]  rounded-xl hover:scale-103 hover:-translate-y-2 duration-100 ease-in-out flex flex-col justify-center items-center text-white">
       <div class="bg-black w-22 h-22 rounded-[50%] flex justify-center items-center"><i class="fas fa-mobile-alt text-5xl"></i></div>
       <h2 class="text-[30px] text-center text-black">Mobile-Responsive Web Design</h2>
@@ -547,52 +558,42 @@
 </section>
 
 <!---------------------------- Form Section ------------------------------------>
-<section id="form" class=" gap-5 py-52 flex flex-col justify-center items-center">
-  <h2>Let Connect</h2>
-  <div class="w-full bg-white h-[300px]">
-    <iframe class="h-full w-full" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7236.741276949068!2d67.24685790976058!3d24.919440578049326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU1JzExLjgiTiA2N8KwMTQnNTcuMiJF!5e0!3m2!1sen!2s!4v1744178551979!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<section id="form" class=" flex flex-col justify-center items-center w-screen bg-red-600>
+  <h2 class="text-white text-4xl">Lets Talk about Work</h2>
+  <div class="form2nd w-full grid grid-col-1 lg:grid-cols-2 gap-10">
+    <div class="w-full bg-white rounded-2xl overflow-hidden min-h-[500px] ">
+      <iframe class="h-full w-full" src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7236.741276949068!2d67.24685790976058!3d24.919440578049326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDU1JzExLjgiTiA2N8KwMTQnNTcuMiJF!5e0!3m2!1sen!2s!4v1744178551979!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="w-full text-black flex justify-center items-center mt-4">
+  <div id="drawer-contact" class=" flex flex-col gap-6 border-green-500 hover:scale-102 duration-200 shadow-[0_0px_60px_#0e52189f] border-2 w-[600px] h-[550px] rounded-3xl">
+    <h5 id="drawer-label" class="flex gap-3  items-center   text-white text-4xl uppercase "><svg class="w-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+     <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
+     <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
+   </svg>Contact us</h5>
+  
+    <form class=" flex flex-col gap-5">
+       <div class="">
+          <label for="email" class=" text-white text-[20px] ">Your email</label>
+          <input type="email" id="email" class="w-full h-[40px] border-green-700 border-2 rounded-3xl pl-4 text-white dark:focus:border-blue-500 placeholder:pl-2" placeholder="name@company.com" required />
+       </div>
+       <div class="">
+          <label for="subject" class="text-white text-[20px]">Subject</label>
+          <input type="text" id="subject" class="w-full h-[40px] border-green-700 border-2 rounded-3xl pl-4 text-white dark:focus:border-blue-500 placeholder:pl-2" placeholder="Let us know how we can help you" required />
+       </div>
+       <div class="">
+          <label for="message" class="text-white text-[20px]">Your message</label>
+          <textarea id="message" rows="4" class="w-full h-[180px] border-green-700 border-2 rounded-3xl pl-4 text-white dark:focus:border-blue-500 placeholder:pl-2 placeholder:pt-2" placeholder="Your message..."></textarea>
+       </div>
+       <button id="connect" type="submit" class="w-[150px] rounded-2xl h-[40px] px-[25px] py-[7px] bg-gradient-to-r from-[#04b30f] to-[rgb(6,221,60)] text-secondary-text border-none font-extrabold text-[1vw] transition duration-300 ease-in-out text-white ">Connect</button>
+    </form>
+   
   </div>
-  <div class="w-full text-black flex justify-center items-center">
-
-
-
-
-
-<div id="drawer-contact" class="  border-green-700 border-2 w-[600px] h-[500px] rounded-3xl">
-  <h5 id="drawer-label" class="flex gap-3  items-center   text-white text-4xl uppercase "><svg class="w-10" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
-   <path d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z"/>
-   <path d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z"/>
- </svg>Contact us</h5>
-  <button type="button" data-drawer-hide="drawer-contact" aria-controls="drawer-contact" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 end-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
-     <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
-     </svg>
-  </button>
-  <form class="mb-6">
-     <div class="mb-6">
-        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
-        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required />
-     </div>
-     <div class="mb-6">
-        <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Subject</label>
-        <input type="text" id="subject" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Let us know how we can help you" required />
-     </div>
-     <div class="mb-6">
-        <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your message</label>
-        <textarea id="message" rows="4" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Your message..."></textarea>
-     </div>
-     <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 w-full focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 block">Send message</button>
-  </form>
-  <p class="mb-2 text-sm text-gray-500 dark:text-gray-400">
-     <a href="#" class="hover:underline">info@company.com</a>
-  </p>
-  <p class="text-sm text-gray-500 dark:text-gray-400">
-     <a href="#" class="hover:underline">212-456-7890</a>
-  </p>
-</div>
-
+  
+  
+    </div>
 
   </div>
+  
 </section>
 <!---------------------------- Footer Section ------------------------------------>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
