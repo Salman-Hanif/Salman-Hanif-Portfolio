@@ -34,3 +34,8 @@ menuIcon.onclick = () => {
   menuIcon.classList.toggle("bx-x");
   navbar.classList.toggle("active");
 };
+
+let preLoader  = document.getElementById('pre-loader')
+window.addEventListener("load",()=>{
+  preLoader.style.display="none"
+})

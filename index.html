@@ -9,7 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sacramento&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Salman Hanif - Frontend Developer Portfoloi</title>
     <style>
@@ -32,24 +34,36 @@
         font-size: 20px;
         text-transform: uppercase;
         margin-inline: auto;
-      }
+      } .loader-heading {
+  font-family: "Sacramento", cursive;
+  font-weight: 900;
+  font-style: normal;
+}
+       .logo {
+  font-family: "Sacramento", cursive;
+  font-weight: 900;
+  font-size: 40px;
+  font-style: normal;
+}
       
     </style>
 </head>
 <body class="scroll-smooth duration-200">
-  <div id="pre-loader" class="fixed w-screen h-screen bg-black top-0 left-0 z-90 flex justify-center items-center">
-    <div class="flex-col gap-4 w-full flex items-center justify-center">
+  <div id="pre-loader" class="fixed w-screen h-screen bg-black top-0 left-0 z-90 flex-col gap-7 flex justify-center items-center">
+    <div class="flex-col gap-4 w-full flex items-center justify-center ">
       <div
-        class="w-20 h-20 border-8 border-transparent text-green-600 text-4xl animate-spin flex items-center justify-center border-t-green-600 rounded-full"
+        class="w-20 h-20 border-4 border-transparent text-green-600 text-4xl animate-spin flex items-center justify-center border-t-green-600 rounded-full"
       >
         <div
           class="w-16 h-16 border-4 border-transparent text-white text-2xl animate-spin flex items-center justify-center border-t-white rounded-full"
         ></div>
       </div>
     </div>
+    <div><h3 class="text-white text-4xl loader-heading">Salman Hanif</h3></div>
   </div>
     <div class="header z-12">
-        <a href="#home" class="logo">Salman</a>
+        <a href="#home" class="logo text-[220px]">Salman</a>
+         
         <i class="fa-solid fa-bars" id="menu-icon"></i>
         <nav  class="navbar">
             <a href="#main" class="active">Home</a>
